@@ -1,1 +1,0 @@
-web: java -jar -Dspring.profiles.active=pdn build/libs/spring-market-1.1.jar

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spring-market-api
+    env: java
+    plan: free
+    buildCommand: "./gradlew build"
+    startCommand: "java -jar build/libs/spring-market-1.1.jar"
+    envVars:
+      - key: SERVER_PORT
+        value: 8080
